@@ -479,12 +479,12 @@ std::string Files::GetValueFromCommand(std::string cmd)
 
 void Files::ClearConsole()
 {
-    // TODO: This is from the Geometria Engine. Adapt code to this environment.
-
-    //if (Application::IsPlatform(Application::Windows))
-    //    system("cls");
-    //else if (Application::IsPlatform(Application::Linux))
-    //    system("clear");
+    #ifdef _WIN32
+        system("cls");
+    #endif
+    #ifdef __linux__
+        system("clear");
+    #endif
 }
 
 void Files::PauseConsole()
