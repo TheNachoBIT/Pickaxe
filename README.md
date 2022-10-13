@@ -13,7 +13,7 @@ Some parts have been changed to adapt to Pickaxe's environment instead of Geomet
 ## Start coding:
 
 - Windows:
-  - Download the **Visual Studio Build Tools** Installer and open it
+  - Download the [**Visual Studio Build Tools**](https://aka.ms/vs/17/release/vs_BuildTools.exe) Installer and open it
   - Select the **Desktop C++ environment** (this process, depending of how it goes, can be automated by the binary in the future).
   - Once you finish installing the tools you need, download/clone this repository.
   - Go to the root folder and open **Pickaxe.exe**.
