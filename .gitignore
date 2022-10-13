@@ -256,11 +256,10 @@ paket-files/
 
 # Executables
 *.exe
-!Tools/WinLLDB/lldb.exe
 !premake5-windows.exe
-!geo.exe
+!pickaxe.exe
 *.exe.old
-!geo
+!pickaxe
 
 # RenderDoc Captures
 *.rdc
